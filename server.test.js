@@ -31,6 +31,6 @@ it('Call the /hello/:name endpoint', async done => {
 it('Call the /hi/:name endpoint', async done => {
     const res = await request.get('/hello/Mahdi')
     expect(res.status).toBe(200)
-    expect(res.body.message).toBe('Hello Mahdi')
+    expect(res.body.message).toBe('Hello mahdi')
     done()
 })
